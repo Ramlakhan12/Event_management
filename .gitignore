@@ -1,26 +1,9 @@
-# Byte-compiled / optimized / DLL files
-__pycache__/
-*.py[cod]
-*.so
-
-# Django stuff:
-*.log
-*.pot
 *.pyc
 __pycache__/
 db.sqlite3
-/media/
-/staticfiles/
-
-# If you're using environment variables for secrets
 .env
-
-# VS Code settings
-.vscode/
-
-# Node.js stuff (if you're using it for frontend)
-node_modules/
-npm-debug.log
-
-# Mac OS generated files
-.DS_Store
+media/
+staticfiles/
+*.log
+*.pot
+venv/
